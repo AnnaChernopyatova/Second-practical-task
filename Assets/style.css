@@ -1,0 +1,61 @@
+.logo{
+    margin: 10px;
+}
+.header{
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}  
+.navigation li{
+    display: inline;
+}   
+
+.main{
+    display: flex;
+    margin-top: 5vh;
+}   
+
+.aside-section{
+    align-self: center;
+    width: 30%;
+    flex-shrink: 1;
+}
+
+.main-section{
+    height: 50vh;
+    flex-grow: 1;
+    align-self: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+
+.center{
+    text-align: center;
+}
+
+.articles{
+    width: 49%;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.footer{
+    margin-top: 5vh;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    flex-basis: 20vw;
+    align-items: center;
+}
+
+.big-footer{
+    width: 20vw;
+}
+
+.small-picture{
+    height: 100px;
+}
