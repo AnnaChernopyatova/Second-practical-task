@@ -15,7 +15,6 @@
 .main{
     display: grid;
     grid-template-columns: 70% 30%;
-    margin-top: 5vh;
 }   
 
 .aside-section{
@@ -35,6 +34,7 @@
 
 .heading-center{
     grid-area:hd-cent;
+    font-size: 3vh;
 }
 
 .center{
@@ -43,18 +43,20 @@
 
 .article-one{
     grid-area:art-one;
+    margin: 5%;
 }
 
 .article-two{
     grid-area: art-two;
+    margin: 5%;
 }
 
 .article-center{
     grid-area: art-cent;
+    margin: 5%;
 }
 
 .footer{
-    margin-top: 5vh;
     display: grid;
     grid-template: 100% / 20% 20% 20% 20%;
     justify-content: space-around;
@@ -63,4 +65,8 @@
 
 .small-picture{
     height: 100px;
+}
+
+.footer-sections{
+    margin: 5%;
 }
